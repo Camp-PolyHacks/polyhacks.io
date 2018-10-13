@@ -31,6 +31,6 @@ exclude:
   - assets/sass
 
 # Plugin settings
-plugins:
+plugins_dir:
   - jekyll-feed
   - jekyll-sitemap
