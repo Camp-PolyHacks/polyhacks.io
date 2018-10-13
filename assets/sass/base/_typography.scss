@@ -1,4 +1,9 @@
-h1,h2,h3,h4,p,li{
+
+h1,h2{
+  font-family: "Bitter",serif;
+}
+
+p,li{
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -7,7 +12,6 @@ h1{
   padding-bottom: 0.5em;
   font-size: 216.67%;
   line-height: 1em;
-  font-family: "Bitter",serif;
 }
 
 p{
