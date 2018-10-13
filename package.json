@@ -1,0 +1,19 @@
+{
+  "name": "polyhacks.io",
+  "version": "1.0.0",
+  "description": "Jekyll Boilerplate is a lightweight and cleaned up version of the initial [Jekyll](https://jekyllrb.com/) setup. The motivation behind this project was for me to avoid doing the same things over and over every time I build yet another site with Jekyll.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Camp-PolyHacks/polyhacks.io.git"
+  },
+  "author": "Javier Garcia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Camp-PolyHacks/polyhacks.io/issues"
+  },
+  "homepage": "https://github.com/Camp-PolyHacks/polyhacks.io#readme"
+}
