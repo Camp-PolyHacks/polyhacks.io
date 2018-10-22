@@ -32,10 +32,10 @@ layout at any custom breakpoint between those:
 
 | Breakpoint | Number of Columns | Width    | Value  |
 | ---------- | ----------------- | ------- | ------ |
-| `xsmall`       | 4                 | `22.5rem`     | `360px`      |
-| `small`       | 8                 | `37.5rem`     | `600px`      |
-| `medium`       | 12                 | `64rem`     | `1024px`      |
-| `xlarge`       | 12                 | `120rem`     | `1920px`      |
+| `xsmall`       | 4                 | `22.5rem`    | `360px`       |
+| `small`        | 8                 | `37.5rem`    | `600px`       |
+| `medium`       | 12                | `64rem`      | `1024px`      |
+| `xlarge`       | 12                | `120rem`     | `1920px`      |
 
 ### Custom Breakpoints
 

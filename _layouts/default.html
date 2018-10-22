@@ -3,13 +3,18 @@
 
   {% include head.html %}
 
-  <body class="material-container material-grid">
+  <body class="material-container">
+    
 
     <main class="main" aria-label="Content">
+      {% include landing.html %}
+      {% include statistics.html %}
+      {% include about.html %}
+      {% include values.html %}
       {{ content }}
     </main>
 
- 
+    {% include footer.html %}
   </body>
-  {% include footer.html %}
+  
 </html>
