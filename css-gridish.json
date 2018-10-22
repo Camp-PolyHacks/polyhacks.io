@@ -1,29 +1,29 @@
 {
-  "prefix": "material",
+  "prefix": "polyhacks",
   "breakpoints": {
-    "xsmall": {
+    "xsm": {
       "breakpoint": 22.5,
       "columns": 4,
       "gutter": "1rem",
-      "margin": 0
+      "margin": "5vw"
     },
-    "small": {
+    "sm": {
       "breakpoint": 37.5,
       "columns": 8,
       "gutter": "1rem",
-      "margin": 0
+      "margin": "5vw"
     },
-    "medium": {
+    "md": {
       "breakpoint": 64,
       "columns": 12,
       "gutter": "2rem",
-      "margin": 0
+      "margin": "5vw"
     },
-    "xlarge": {
+    "xl": {
       "breakpoint": 120,
       "columns": 12,
       "gutter": "2rem",
-      "margin": 0
+      "margin": "5vw"
     }
   },
   "extraArtboards": {
