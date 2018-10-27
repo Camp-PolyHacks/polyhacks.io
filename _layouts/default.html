@@ -3,13 +3,13 @@
 
   {% include head.html %}
 
-  <body class="polyhacks-container polyhacks-grid--fixed-columns">
+  <body>
     
 
-    <main class="main" aria-label="Content">
+    <main class="main polyhacks-grid polyhacks-container" aria-label="Content">
       {% include landing.html %}
-      {% include statistics.html %}
       {% include about.html %}
+      {% include statistics.html %}
       {% include values.html %}
       {% include faq.html%}
       {{ content }}
