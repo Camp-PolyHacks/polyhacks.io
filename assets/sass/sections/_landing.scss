@@ -1,5 +1,8 @@
 .landing{
-  padding-top: 32px;
+  background: #C5DCF2;
+  background: url(/assets/images/landing-background.svg);
+  background-size: cover;
+  padding:64px 0px;
   &__content{
       grid-column: 8 / span 5;
       display: flex;
@@ -8,7 +11,7 @@
   }
 
   &__image{
-    max-width: 250px;
+    max-width: 300px;
   }
 
 }
