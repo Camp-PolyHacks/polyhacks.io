@@ -1,5 +1,5 @@
 
-h1,h2{
+h1,h2,h3,h4{
   font-family: "Bitter",serif;
 }
 
@@ -11,6 +11,21 @@ h1{
   padding-bottom: 0.5em;
   font-size: 216.67%;
   line-height: 1em;
+}
+
+
+h3{
+  text-transform: uppercase;
+
+
+}
+
+h4{
+  font-weight: 700;
+  font-size: 135%;
+  font-style: italic;
+  margin-bottom: 0;
+
 }
 
 p{
