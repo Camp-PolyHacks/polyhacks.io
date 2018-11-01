@@ -1,7 +1,9 @@
 .values{
 
   &__images{
-    grid-column: span 7;
+    @media only screen and (min-width: 1024px) {
+    //grid-column: 11;
+    }
   }
 
 
