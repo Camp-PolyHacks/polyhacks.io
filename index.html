@@ -21,7 +21,7 @@
   <body class="polyhacks-container">
       
     <main class="main polyhacks-grid" aria-label="Content">
-      <div class="polyhacks-grid landing .polyhacks-container__break-md">
+      <div class="polyhacks-grid landing polyhacks-container__bleed--md polyhacks-container__bleed--xsm polyhacks-container__bleed--sm polyhacks-container__bleed--xl" id="landing">
     <h1 class="polyhacks-grid__col--md--6 landing__test">Calling all Trailblazers.</h1>
   <div class="polyhacks-grid__col--md--4 landing__content">
     <img class="landing__image" src="./assets/images/logos/white-logo.svg">
@@ -31,28 +31,27 @@
   </div>
 </div>
 
-      <nav class="nav polyhacks-container__bleed--md polyhacks-container__bleed--xsm polyhacks-container__bleed--sm polyhacks-container__break--xl">
-  <h3><a>Camp PolyHacks</a></h3>
+      <nav class="nav polyhacks-container__bleed--md polyhacks-container__bleed--xsm polyhacks-container__bleed--sm polyhacks-container__bleed--xl">
+  <h3><a href="#landing" style="color: black"; >Camp PolyHacks</a></h3>
 
   <div class="nav__links">
-  <li>About</li>
-  <li>Values</li>
-  <li>Sponsorship</li>
-  <li>FAQ</li>
-
+    <a href="#about" style="color: black"><li>About</li></a>
+    <a href="#values" style="color: black"><li>Values</li></a></li>
+    <a href="#sponsor" style="color: black"><li>Sponsorship</li></a>
+    <a href="#faq" style="color: black"><li>FAQ</li></a>
   </div>
 
 
 </nav>
-      <div class="polyhacks-grid about">
+      <div class="polyhacks-grid about" id="about">
     <div class="polyhacks-grid__col--md--7">
       <img class="about__phone" src="./assets/images/technology/polyhacks-phone.svg">
       <img class="about__laptop" src="./assets/images/technology/polyhacks-laptop.svg">
     </div>
-    <div class="polyhacks-grid__col--md--5">
+    <div class="polyhacks-grid__col--md--5" style="padding-top: 128px">
       <h2>What is Camp PolyHacks?</h2>
-      <p>Camp PolyHacks is a student-run, human-centered, social-entrepreneurship hackathon focused on social entrepreneurship and human centered&nbsp;design.</p>
-      <p>In 48 hours, students off all backgrounds compete to create websites, apps, or anything they can muster up to solve a problem within the San Luis Obispo&nbsp;community.</p>
+      <p>Camp PolyHacks is a student-run, multidisciplinary hackathon focused on social entrepreneurship and human centered&nbsp;design.</p>
+      <p>In 48 hours, students of all backgrounds compete to build businesses or any tech product to solve a problem currently impacting the&nbsp;community.</p>
     </div>
 </div>
       <div class="polyhacks-grid" style="padding: 128px 0px;">
@@ -72,7 +71,7 @@
 
   <div class="polyhacks-container--left polyhacks-grid__col--md--4 polyhacks-grid">
     <p class="polyhacks-grid__col--md--1 polyhacks-grid__col--xsm--2"><span class="big">39%</span><br>Hipsters<br><span class="small">(Design)</span></p>
-    <img src="./assets/images/maple/moose-hip.svg" class="polyhacks-grid__col--md--2 polyhacks-grid__col--md--2 polyhacks-grid__col--xsm--2 img--icons polyhacks-grid__height--xsm" style="min-height: 200px; margin-top: -20px; height: 275px;">
+    <img src="./assets/images/maple/moose-hip.svg" class="polyhacks-grid__col--md--2 polyhacks-grid__col--md--2 polyhacks-grid__col--xsm--2 img--icons polyhacks-grid__height--xsm" style="min-height: 200px; margin-top: -35px; height: 275px;">
   </div>
       
 
@@ -102,11 +101,11 @@
 </div>
 
       
-<div style="padding-bottom: 128px;">
-    <h2 > Camp Polyhacks values...</h2>
+<div style="padding: 128px 0px;" id="values">
+    <h2 > Camp PolyHacks values...</h2>
     <div class="polyhacks-grid" style="padding-bottom: 64px;">
       <div class="polyhacks-container--left polyhacks-grid__col--md--6">
-          <h2>Problem Solving</h2>
+          <h3>Problem Solving</h3>
           <hr class="values__line">
           <p>Camp PolyHacks is a Learn By Doing experience. We encourage campers of all levels to step outside of their comfort zone to learn new skills and tackle problems head-on.</p>
       </div>
@@ -115,7 +114,7 @@
 
     <div class="polyhacks-grid">
         <div class="polyhacks-container--left polyhacks-grid__col--md--6" style="padding-bottom: 64px;">
-          <h2>Multidisciplinary Teams</h2>
+          <h3>Multidisciplinary Teams</h3>
           <hr class="values__line">
           <p>This hackathon goes beyond coding. Designers, entrepreneurs, and developers work together in teams to unite skill sets, experiences, and perspectives to execute ideas &mdash; just as you would in the&nbsp;workforce.</p>
         </div>
@@ -124,7 +123,7 @@
 
     <div class="polyhacks-grid">
       <div class="polyhacks-container--left polyhacks-grid__col--md--6">
-          <h2>Social Entrepreneurship</h2>
+          <h3>Social Entrepreneurship</h3>
           <hr class="values__line">
           <p>We believe in using technology for good. Campers are made aware of important problems in the community and Camp Polyhacks is a platform to solve them.</p>
       </div>
@@ -137,26 +136,26 @@
   
   
   
-      <h2>Our Past Sponsors</h2>
+      <h2 id="sponsors">Our Past Sponsors</h2>
 <div class="polyhacks-grid" style="justify-items: center;">
-  <img class="polyhacks-grid__col--md--4" src="assets/images/past-sponsors/GE.svg" style="height: 100px;">
-  <img class="polyhacks-grid__col--md--4" src="assets/images/past-sponsors/WORKDAY.svg" style="height: 100px;">
-  <img class="polyhacks-grid__col--md--4" src="assets/images/past-sponsors/CIE.svg" style="height: 100px;">
+  <img class="polyhacks-grid__col--md--4" src="assets/images/past-sponsors/GE.svg" style="height: 100px; width: 100%;">
+  <img class="polyhacks-grid__col--md--4" src="assets/images/past-sponsors/WORKDAY.svg" style="height: 100px; width: 100%;">
+  <img class="polyhacks-grid__col--md--4" src="assets/images/past-sponsors/CIE.svg" style="height: 100px; width: 100%;">
 </div>
 <div class="polyhacks-grid" style="justify-items: center; padding: 2em 0;">
-    <img class="polyhacks-grid__col--md--6" src="/assets/images/past-sponsors/TRANSUNION.svg" style="height: 100px;">
-    <img class="polyhacks-grid__col--md--6" src="/assets/images/past-sponsors/MINDBODY.svg" style="height: 80px;">
+    <img class="polyhacks-grid__col--md--6" src="assets/images/past-sponsors/TRANSUNION.svg" style="height: 100px; width: 100%;">
+    <img class="polyhacks-grid__col--md--6" src="assets/images/past-sponsors/MINDBODY.svg" style="height: 80px; width: 100%;">
 </div>
 <div class="polyhacks-grid" style="justify-items: center; padding: 2em 0;">
-    <img class="polyhacks-grid__col--md--6" src="/assets/images/past-sponsors/OCOB.svg" style="height: 100px;">
-    <img class="polyhacks-grid__col--md--6" src="/assets/images/past-sponsors/PARIVEDA.svg" style="height: 100px;">
+    <img class="polyhacks-grid__col--md--6" src="assets/images/past-sponsors/OCOB.svg" style="height: 100px; width: 100%;">
+    <img class="polyhacks-grid__col--md--6" src="assets/images/past-sponsors/PARIVEDA.svg" style="height: 100px; width: 100%;">
 </div>
       <h2 id="sponsor" style="text-align: center; padding-top:128px;">Interested in Sponsoring Us?</h2>
 <div class="interest" style="padding-bottom: 128px;">
   <a class="button button--green" href="/assets/documents/Corporate_Sponsorship.pdf">Corporate Sponsorship</a>
   <a class="button button--green" href="/assets/documents/Local_Sposorship.pdf" style="margin: 16px">Local Sponsorship</a>
 </div>
-      <div class="polyhacks-grid__col--md--6 faq polyhacks-grid" style="padding: 128px 0px;">
+      <div class="polyhacks-grid__col--md--6 faq polyhacks-grid" style="padding: 128px 0px;" id="faq">
 <h2>FAQ</h2>
 <div >
   <h4>What is a Hackathon?</h4>
@@ -219,20 +218,25 @@
 </div>
 
 </div>
-      <div style="background:url(/assets/images/mountains/footer-background.svg); background-size: cover">
-    <div style="padding: 256px 0px;">
+      <div style="background:url(assets/images/mountains/footer-background.svg); background-size: cover; padding-top: 258px; background-position-y: -200px;" class="polyhacks-grid polyhacks-container__bleed--md polyhacks-container__bleed--xsm polyhacks-container__bleed--sm polyhacks-container__bleed--xl">
+    <div class="polyhacks-grid__col--md--6 polyhacks-grid__col--xsm--4">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/vi4fe4O0lsY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="polyhacks-grid__col--md--4 polyhacks-grid__col--xsm--4"></iframe>
+    </div>
+
+    
+    <div style="padding-bottom: 256px;" class="polyhacks-grid__col--md--6">
             <h2>Follow Us!</h2>
             <div class="polyhacks-grid" style="font-size: 350%; justify-items: center;">
-            <a href="https://www.instagram.com/camppolyhacks/" class="polyhacks-grid__col--md--3">
+            <a href="https://www.instagram.com/camppolyhacks/" class="polyhacks-grid__col--md--1">
             <i class="fab fa-instagram"></i>
             </a>
-            <a href="https://www.facebook.com/camppolyhacks/"  class="polyhacks-grid__col--md--3">
+            <a href="https://www.facebook.com/camppolyhacks/"  class="polyhacks-grid__col--md--1">
             <i class="fab fa-facebook-f"></i>
             </a>
-            <a href="https://www.linkedin.com/company/camppolyhacks/"  class="polyhacks-grid__col--md--3">
+            <a href="https://www.linkedin.com/company/camppolyhacks/"  class="polyhacks-grid__col--md--1">
             <i class="fab fa-linkedin-in"></i>
             </a>
-            <a href="/2018-site/index.html"  class="polyhacks-grid__col--md--3">
+            <a href="/2018-site/index.html"  class="polyhacks-grid__col--md--1">
             <p style="margin-top: 0; font-size: 50%; font-weight: 700; line-height: 0.9;">20<br>18</p>
             </a>
         </div>
@@ -244,7 +248,7 @@
             Made with <i class="fas fa-heart"></i>
         </span></p>
         <p style="margin-top: 0"><span class="small">
-            &copy; Camp Polyhacks 
+            &copy; Camp PolyHacks 
             <script type="text/javascript">
                 document.write(new Date().getFullYear());
             </script>
