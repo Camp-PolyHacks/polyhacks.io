@@ -4,10 +4,10 @@
     opacity: 0.7;
   }
 
-  height: 80vh;
+  height: 100vh;
   background: url(../images/mountains/landing-background.svg),  #C5DCF2 ;
   background-size: cover;
-  padding-top: 64px;
+  padding-top: 128px;
   &__content{
     @media only screen and (min-width: 1024px) {
       grid-column: 8 / span 5;
