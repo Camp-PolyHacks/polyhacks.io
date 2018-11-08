@@ -2,6 +2,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-position-y: -200px;
+
   @media only screen and (max-width: 1024px) {
     background-position-y: 0px;
   }
