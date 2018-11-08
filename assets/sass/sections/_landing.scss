@@ -5,9 +5,18 @@
   }
 
   height: 100vh;
-  background: url(../images/mountains/landing-background.svg),  #C5DCF2 ;
+  background: url(../images/mountains/landing-background.svg), #C5DCF2 ;
   background-size: cover;
   padding-top: 128px;
+
+  @media only screen and (max-width: 1024px) {
+    padding-top: 0px;
+    background: url(../images/mountains/landing-background.svg), #499770;
+    background-size: cover;
+
+  }
+
+
   &__content{
     @media only screen and (min-width: 1024px) {
       grid-column: 8 / span 5;
