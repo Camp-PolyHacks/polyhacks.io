@@ -11,6 +11,8 @@
     display: none;
   }
 
+
+
   
   &__links{
     color: black;
@@ -21,12 +23,16 @@
     @media only screen and (max-width: 600px){
       display: none;
     }
+
   }
 
   li{
-    padding: 0 16px;
+    padding: 39px 16px;
     color: black;
     font-family: "Bitter", serif;
+    &:hover{
+      background: #4D9F74;
+    }
   }
 
 
