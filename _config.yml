@@ -7,9 +7,7 @@
 
 # Site settings
 title: Camp PolyHacks 3.0
-description: > # this means to ignore newlines until "baseurl:"
-Camp PolyHacks is a student-run, multidisciplinary hackathon focused on social entrepreneurship and human-centered design. 
-In 24 hours, students of all backgrounds compete to build businesses or any tech product to solve a problem currently impacting the community. 
+description: Camp PolyHacks is a student-run, multidisciplinary hackathon focused on social entrepreneurship and human-centered design. In 24 hours, students of all backgrounds compete to build businesses or any tech product to solve a problem currently impacting the community. 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "polyhacks.io" # the base hostname & protocol for your site
 
