@@ -6,14 +6,15 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Camp PolyHacks
-description: > # this means to ignore newlines until "baseurl:"
- Camp PolyHacks is a non-profit, student-run association that empowers designers, developers, and entrepreneurs to solve civic-based issues alongside community members. 
+title: Camp PolyHacks 3.0
+description: Camp PolyHacks is a student-run, multidisciplinary hackathon focused on social entrepreneurship and human-centered design. In 24 hours, students of all backgrounds compete to build businesses or any tech product to solve a problem currently impacting the community. 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "polyhacks.io" # the base hostname & protocol for your site
 
 # Markdown settings
 markdown: kramdown
+encoding: "utf-8"
+
 
 # Sass settings
 sass:
