@@ -1,5 +1,7 @@
 .values{
-
+  @media only screen and (min-width: 1024px) {
+    padding-bottom: 128px;
+  }
   &__images{
     @media only screen and (max-width: 1024px) {
     grid-area: 1;
