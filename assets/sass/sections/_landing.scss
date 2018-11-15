@@ -28,6 +28,11 @@
 
   &__image{
     max-width: 300px;
+
+    @media only screen and (max-width: 1024px) {
+      max-width: 150px;
+    }
+
   }
 
   h1{
