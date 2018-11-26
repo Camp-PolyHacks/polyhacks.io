@@ -4,10 +4,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+  <meta property="og:url" content="http://www.polyhacks.io/"/>
   <meta property="og:title" content="Camp Polyhacks" />
-  <meta property="og:type" content="website" />
+  <meta property="og:type" content="website"/>
   <meta property="og:image" content="https://goo.gl/NEczJq"/>
-  <meta property="og:url" content="http://www.polyhacks.io/" />
   <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
   <link rel="shortcut icon" type="image/png" :href="project_favicon" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
