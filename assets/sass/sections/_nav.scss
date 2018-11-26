@@ -7,6 +7,7 @@
   top: 0;
   display: flex;
   justify-content: space-between;
+
   @media only screen and (max-width: 600px){
     display: none;
   }
@@ -40,5 +41,6 @@
     color: black;
     font-family: "Bitter", serif;
     text-transform: none;
+    text-decoration: none;
   }
 }

@@ -1,12 +1,24 @@
+.people{
+  padding: 32px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
 
+  @media only screen and (min-width: 600px){
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  @media only screen and (min-width: 1200px){
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+
+}
 
 
 .person{
-  padding: 16px 0;
-
 
   &__image{
-    max-width: 10rem;
+    max-width: 9rem;
   
   }
 
