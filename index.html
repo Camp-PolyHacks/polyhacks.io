@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+xmlns:fb="http://ogp.me/ns/fb#">
 
   <head>
   <meta charset="utf-8">
@@ -7,6 +8,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Camp PolyHacks 3.0</title>
+  <meta property="og:url" content="http://www.polyhacks.io/"/>
+  <meta property="og:title" content="Camp Polyhacks" />
+  <meta property="og:type" content="website"/>
+  <meta property="og:image" content="https://goo.gl/NEczJq"/>
   <meta name="description" content="Camp PolyHacks is a student-run, multidisciplinary hackathon focused on social entrepreneurship and human-centered design. In 24 hours, students of all backg...">
   <link rel="shortcut icon" type="image/png" :href="project_favicon" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
@@ -23,23 +28,31 @@
 
   gtag('config', 'UA-89383814-4');
 </script>
-
+<!-- Facebook Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window,document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+   fbq('init', '344161009479392'); 
+  fbq('track', 'PageView');
+  </script>
+  <noscript>
+   <img height="1" width="1" 
+  src="https://www.facebook.com/tr?id=344161009479392&ev=PageView
+  &noscript=1"/>
+  </noscript>
+  <!-- End Facebook Pixel Code -->
 </head>
 
 
   <body class="polyhacks-container">
       
     <main class="main polyhacks-grid" aria-label="Content">
-      <div class="polyhacks-grid landing polyhacks-container__bleed--md polyhacks-container__bleed--xsm polyhacks-container__bleed--sm polyhacks-container__bleed--xl" id="landing">
-    <h1 class="polyhacks-grid__col--md--6 landing__test">Calling All Trailblazers.</h1>
-  <div class="polyhacks-grid__col--md--4 landing__content">
-    <img class="landing__image" src="./assets/images/logos/white-logo.svg">
-    <h1 class="big">Camp PolyHacks 3.0</h1>
-    <p>January 18–19, 2019 @ SLO Hot House</p>
-    <a href="https://camppolyhacks19.typeform.com/to/TMPKlh" class="button button__main">Apply</a>
-  </div>
-</div>
-
       <nav class="nav polyhacks-container__bleed--md polyhacks-container__bleed--xsm polyhacks-container__bleed--sm polyhacks-container__bleed--xl">
   <h3><a href="#landing" class="nav__title" style="color: black; font-family: "Bitter", serif;">Camp PolyHacks</a></h3>
 
@@ -51,15 +64,27 @@
 
 
 </nav>
+      <div class="polyhacks-grid landing polyhacks-container__bleed--md polyhacks-container__bleed--xsm polyhacks-container__bleed--sm polyhacks-container__bleed--xl" id="landing">
+    <h1 class="polyhacks-grid__col--md--6 landing__test">Calling All Trailblazers.</h1>
+  <div class="polyhacks-grid__col--md--4 landing__content">
+    <img class="landing__image" src="./assets/images/logos/white-logo.svg">
+    <h1 class="big">Camp PolyHacks 3.0</h1>
+    <p>January 18–19, 2019 @ SLO Hot House</p>
+    <a href="https://camppolyhacks19.typeform.com/to/TMPKlh" class="button button__main">Apply</a>
+  </div>
+</div>
+
       <div class="polyhacks-grid about" id="about">
     <div class="polyhacks-grid__col--md--7">
       <img class="about__phone" src="./assets/images/technology/polyhacks-phone.svg">
       <img class="about__laptop" src="./assets/images/technology/polyhacks-laptop.svg">
     </div>
-    <div class="polyhacks-grid__col--md--5" style="padding-top: 128px">
+    <div class="polyhacks-grid__col--md--5 about__content">
       <h2>What is Camp PolyHacks?</h2>
-      <p>Camp PolyHacks is a student-run, multidisciplinary hackathon focused on social entrepreneurship and human centered&nbsp;design.</p>
-      <p>In 48 hours, students of all backgrounds compete to build businesses or any tech product to solve a problem currently impacting the&nbsp;community.</p>
+      <p>Camp PolyHacks is a student-run, multidisciplinary hackathon dedicated to social entrepreneurship and human-centered design.</p>
+      <p>Over two days, Cal Poly students of all backgrounds work in teams to ideate, design, pitch, and market their solution to a problem facing the community. It’s a Learn by Doing marathon of collaboration, learning, and creativity.</p>
+
+
     </div>
 </div>
       <div class="polyhacks-grid" style="padding: 128px 0px;">
@@ -109,7 +134,7 @@
 </div>
 
       
-<div style="padding: 128px 0px;" id="values">
+<div class="values" id="values">
     <h2>Our Focus</h2>
     <div class="polyhacks-grid" style="padding-bottom: 64px;">
       <div class="polyhacks-container--left polyhacks-grid__col--md--6">
@@ -133,7 +158,7 @@
       <div class="polyhacks-container--left polyhacks-grid__col--md--6">
           <h3>Social Entrepreneurship</h3>
           <hr class="values__line">
-          <p>We believe in using technology for good. Campers are made aware of important problems in the community and Camp Polyhacks is a platform to solve them.</p>
+          <p>We believe in using technology for good. Camp PolyHacks informs campers about important problems in the community and this is a platform to solve them.</p>
       </div>
       <img src="./assets/images/values/community.svg" class="polyhacks-grid__col--md--2 polyhacks-grid__col--xsm--2 polyhacks-grid__height--xsm values__images img--icons" style="height: 200px;">
     </div>
@@ -144,19 +169,20 @@
   
   
   
-      <h2 id="sponsors" style="padding-bottom: 64px">Our Sponsors!</h2>
+      <h2 id="sponsors" style="padding-bottom: 64px; padding-top:128px">Our Sponsors!</h2>
 <div class="polyhacks-grid sponsor">
   <img class="polyhacks-grid__col--md--4 polyhacks-grid__col--xsm--4" class="pastSponsors" src="assets/images/logos/first row/Amazon_logo_plain.svg" style="height: 100px; width: 100%; padding: 4px 0px" >
   <img class="polyhacks-grid__col--md--4 polyhacks-grid__col--xsm--4" class="pastSponsors" src="assets/images/logos/first row/Northrop_Grumman.svg" style="height: 100px; width: 100%; padding: 4px 0px" >
   <img class="polyhacks-grid__col--md--4 polyhacks-grid__col--xsm--4" class="pastSponsors" src="assets/images/logos/first row/Pariveda logo-Horizontal EPS-white.svg" style="height: 100px; width: 100%; padding: 4px 0px" >
 </div>
 <div class="polyhacks-grid sponsor">
-    <img class="polyhacks-grid__col--md--4 polyhacks-grid__col--xsm--4" class="pastSponsors" src="assets/images/logos/second row/WhiteFox logo WHITE.png" style="height: 100px; padding: 4px 0px">
+    <img class="polyhacks-grid__col--md--4 polyhacks-grid__col--xsm--4" class="pastSponsors" src="assets/images/logos/second row/WhiteFox logo WHITE.png" style="height: 70px; padding: 4px 0px">
     <img class="polyhacks-grid__col--md--4 polyhacks-grid__col--xsm--4" class="pastSponsors" src="assets/images/logos/second row/Hathway_StackedMark-WH.png" style="height: 100px; padding: 4px 0px">
-    <img class="polyhacks-grid__col--md--4 polyhacks-grid__col--xsm--4" class="pastSponsors" src="assets/images/logos/second row/Microsoft_logo_(2012).svg" style="height: 100px; width: 100%; padding: 4px 0px">
+    <img class="polyhacks-grid__col--md--4 polyhacks-grid__col--xsm--4" class="pastSponsors" src="assets/images/logos/third row/viasatwhite.png" style="height: 100px; padding: 4px 0px">
+    
 </div>
 <div class="polyhacks-grid sponsor">
-    <img class="polyhacks-grid__col--md--4 polyhacks-grid__col--xsm--4" class="pastSponsors" src="assets/images/logos/third row/viasatwhite.png" style="height: 100px; padding: 4px 0px">
+    <img class="polyhacks-grid__col--md--4 polyhacks-grid__col--xsm--4" class="pastSponsors" src="assets/images/logos/second row/Microsoft_logo_(2012).svg" style="height: 100px; width: 100%; padding: 4px 0px">
     <img class="polyhacks-grid__col--md--4 polyhacks-grid__col--xsm--4" class="pastSponsors" src="assets/images/logos/third row/informatica-w.png" style="height: 100px; padding: 4px 0px">
     <img class="polyhacks-grid__col--md--4 polyhacks-grid__col--xsm--4" class="pastSponsors" src="assets/images/logos/third row/IFixit_logo.svg" style="height: 100px; width: 100%; padding: 4px 0px">
 </div>
@@ -169,70 +195,123 @@
       
 <h2 id="sponsor" style="text-align: center; padding-top:256px;">Interested in Sponsoring Us?</h2>
 <div class="interest" style="padding-bottom: 128px;">
-  <a class="button button--green" href="assets/documents/Corporate_Sponsorship.pdf">Corporate Sponsorship</a>
-  <a class="button button--green" href="assets/documents/Local_Sposorship.pdf" style="margin: 12px">Local Sponsorship</a>
+  <a class="button button--green" target="_blank" href="assets/documents/Corporate_Sponsorship.pdf">Corporate Sponsorship</a>
+  <a class="button button--green" target="_blank" href="assets/documents/Local_Sposorship.pdf" style="margin: 12px">Local Sponsorship</a>
 </div>
       <div class="polyhacks-grid__col--md--6 faq polyhacks-grid" style="padding: 128px 0px;" id="faq">
 <h2>FAQ</h2>
 <div >
-  <h4>What is a Hackathon?</h4>
-  <p>Camp PolyHacks is a weekend event where designers, developers, entrepreneurs  can collaborate, learn, and create. The goal is to work within a team to ideate, design, pitch, and market a fully functioning product over a short period of time. It’s learn by doing at its best.</p>
+  <h4>When and where is Camp PolyHacks?</h4>
+  <p>This year’s hackathon will kick off on Friday, January 18 at 5 PM. We’ll be hacking until the awards ceremonies the next day, Saturday, January 19, at 9 PM. The entire event is hosted at the SLO HotHouse, the downtown entrepreneurship space right above Ross.</p>
 </div>
 
 <div >
-    <h4>When is it happening?</h4>
-    <p>This year’s Hackathon will be kicking off on Friday, January 18 at 5 PM. We’ll be hacking until the awards ceremonies the next day on Saturday, January 19 till 9 PM.</p>
+    <h4>Who can attend Camp PolyHacks?</h4>
+    <p>All current Cal Poly, San Luis Obispo students are welcome!</p>
 </div>
 
 <div>
     <h4>How do I sign up for Camp PolyHacks?</h4>
-    <p>You can sign up for Camp PolyHacks through the simple application we will open in November. Stay&nbsp;tuned!</p>
-</div>
-
-<div>
-    <h4>How can I sponsor Camp PolyHacks?</h4>
-    <p>You can sponsor Camp PolyHacks by reaching out to us at <a href="mailto:team.camppolyhacks@gmail.com">team.camppolyhacks@gmail.com</a>. All information is located in the Sponsorship section above or the packet&nbsp;<a href="#sponsor">here.</a></p>
-</div>
-
-<div >
-    <h4>When/Where is Camp PolyHacks?</h4>
-    <p>Camp PolyHacks will be held on January 18-19, 2019 at the Hot House, SLO’s entrepreneurship space in downtown right above Ross.</p>
-</div>
-
-<div >
-    <h4>What should I expect on the day of the event?</h4>
-    <p>The schedule will be released closer to the event, but you can expect unlimited free food, snacks, drinks, helpful company mentors/resources, and exciting activities to take a break from&nbsp;hacking.</p>
+    <p>Applications are open now through November 25! You can sign up through the Apply button on our home page or by following <a href="https://camppolyhacks19.typeform.com/to/TMPKlh">this link.</a></p>
 </div>
 
 <div>
     <h4>How much does it cost?</h4>
-    <p>Camp PolyHacks is 100% Free! </p>
+    <p>Camp PolyHacks is 100% free!</p>
+</div>
+
+<div >
+    <h4>What should I expect on the day of the event?</h4>
+    <p>At Camp PolyHacks, you’ll collaborate with a team to build something to help solve a problem our community faces. Expect a fast-paced environment with lots of learning, support, and teamwork. We will also provide unlimited free food and drinks, helpful company mentors and resources, and exciting activities to take a break from hacking. A more detailed schedule will be released in the weeks before the event, so check back soon!</p>
+</div>
+
+<div >
+    <h4>Do I need to be an experienced coder?</h4>
+    <p>Not at all! We welcome campers of all backgrounds and experience levels. This is your time to learn something new.</p>
 </div>
 
 <div>
     <h4>What do I need to bring?</h4>
-    <p>Bring your laptop, chargers, sleeping bags/materials if you’re staying overnight, and your A-game!</p>
+    <p>Bring your laptop, chargers, creative tools, and whatever else you might need to whip up a cool new product. You will also need sleeping bags and travel materials if you’re staying overnight. Most importantly, don’t forget your A-game!</p>
 </div>
 
 <div>
-    <h4>Do I need to be an experienced coder?</h4>
-    <p>Not at all! We welcome campers of all backgrounds and experience levels. This is your time to learn something&nbsp;new.</p>
+    <h4>Will I be able to sleep during the hackathon?</h4>
+    <p>Yes, there will be places available for teams to rest at the HotHouse overnight.</p>
 </div>
 
 <div>
-        <h4>What are the prizes and how are projects judged?</h4>
-        <p>Each team pitches and is judged based on their Business Model, Technical Capability, and User Experience. Past prizes include Google DayDreams and Amazon Echos.</p>
+    <h4>How do I form teams, and how big can each team be?</h4>
+    <p>Teams can be up to 10 people. If you don’t have a team yet, that’s okay! There will be time to ﬁnd one on Friday before the hacking begins.</p>
 </div>
 
 <div>
-        <h4>Will I be able to sleep during the hackathon?</h4>
-        <p>Yes, there will be places available for teams to rest at the Hot House&nbsp;overnight.</p>
+        <h4>Help! I have another question that wasn’t answered here.</h4>
+        <p>Check out our Facebook page <a href="https://www.facebook.com/camppolyhacks/">here</a> to see if we’ve posted the answer already. If you still can’t find what you’re looking for, feel free to contact us at <a href="mailto:team.camppolyhacks@gmail.com">team.camppolyhacks@gmail.com!</a></p>
 </div>
 
-<div>
-        <h4>How do I form teams and how big can they be?</h4>
-        <p>Teams can be up to 10 people and if you don’t have a team yet, there will be time on Friday to ﬁnd&nbsp;one.</p>
 </div>
+      <h2>Meet the Team</h2>
+<div class="polyhacks-grid polyhacks-grid__col--md--12">
+<div class="people">
+    <div class="person">
+        <img src="./assets/images/directors/rutu.jpg" class="person__image">
+        <p class="person__content" ><span class="small"><b>Rutu Samai</b> <br> <i>Lead Director</i></span></p>
+    </div>
+    <div class="person">
+        <img src="./assets/images/directors/diane.jpg" class="person__image">
+        <p class="person__content" ><span class="small"><b>Diane Hahn</b> <br> <i>Design + Tech Director</i></span></p>
+    </div>
+    <div class="person">
+        <img src="./assets/images/directors/cel.jpg" class="person__image">
+        <p class="person__content" ><span class="small"><b>Celestine Co</b> <br> <i>Sponsorship Director</i></span></p>
+    </div>
+    <div class="person">
+        <img src="./assets/images/directors/brooke.jpg" class="person__image">
+        <p class="person__content" ><span class="small"><b>Brooke Panian</b> <br> <i>Marketing Director</i></span></p>
+    </div>
+    <div class="person">
+        <img src="./assets/images/directors/jim.jpg" class="person__image">
+        <p class="person__content" ><span class="small"><b>Jim Heald</b> <br> <i>Event + Experience</i></span></p>
+    </div>
+    <div class="person">
+        <img src="./assets/images/directors/kristen.jpg" class="person__image">
+        <p class="person__content" ><span class="small"><b>Kristen Nagamatsu</b> <br> <i>Design+Tech Organizer</i></span></p>
+    </div>
+    <div class="person">
+        <img src="./assets/images/directors/javi.jpg" class="person__image">
+        <p class="person__content" ><span class="small"><b>Javier Garcia</b> <br> <i>Design + Tech Organizer</i></span></p>
+    </div>
+    <div class="person">
+        <img src="./assets/images/directors/sami.jpg" class="person__image">
+        <p class="person__content" ><span class="small"><b>Samantha Magtoto</b> <br> <i>Sponsorship Organizer</i></span></p>
+    </div>
+    <div class="person">
+        <img src="./assets/images/directors/eric.jpg" class="person__image">
+        <p class="person__content" ><span class="small"><b>Eric Zhou</b> <br> <i>Sponsorship Organizer</i></span></p>
+    </div>
+    <div class="person">
+        <img src="./assets/images/directors/kellie.jpg" class="person__image">
+        <p class="person__content" ><span class="small"><b>Kellie Banzon</b> <br> <i>Marketing Organizer</i></span></p>
+    </div>
+    <div class="person">
+        <img src="./assets/images/directors/rachel.jpg" class="person__image">
+        <p class="person__content" ><span class="small"><b>Rachel Hsieh</b> <br> <i>Event + Experience Organizer</i></span></p>
+    </div>
+    <div class="person">
+        <img src="./assets/images/directors/arun.jpg" class="person__image">
+        <p class="person__content" ><span class="small"><b>Arun Shriram</b> <br> <i>Event + Experience Organizer</i></span></p>
+    </div>
+    <div class="person">
+        <img src="./assets/images/directors/aviral.jpg" class="person__image">
+        <p class="person__content" ><span class="small"><b>Aviral Kukreja</b> <br> <i>Event + Experience Organizer</i></span></p>
+    </div>
+    <div class="person">
+        <img src="./assets/images/directors/teja.jpg" class="person__image">
+        <p class="person__content" ><span class="small"><b>Sriteja Vemula</b> <br> <i>Event + Experience Organizer</i></span></p>
+    </div>
+</div>
+
 
 </div>
       <div style="background:url(assets/images/mountains/footer-background.svg); background-size: cover; padding-top: 258px;" class="polyhacks-grid polyhacks-container__bleed--md polyhacks-container__bleed--xsm polyhacks-container__bleed--sm polyhacks-container__bleed--xl">
@@ -276,7 +355,6 @@
     </footer>
 </div>
     </main>
-
  
   </body>
   
