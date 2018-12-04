@@ -58,14 +58,21 @@
   border: 0px transparent;
   &:before {
     transform: translate(-110%, -110%) translateZ(0);
+    background: #00BF8C;
     content: "";
     display: block;
-    background: #00BF8C;
     position: absolute;
   }
 
   &:hover:before {
     transform: translate(-45%, -34%) translateZ(0);
+  }
+
+
+  &-white{
+    &:before{
+      background: #ffffff;
+    }
   }
 
 }
