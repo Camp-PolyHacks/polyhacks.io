@@ -31,7 +31,7 @@
 
 
 
-/* codepen classes*/
+/* codepen classes */
 .button-mat {
   border: 0px transparent;
   transition: 0.3s ease-in-out;
@@ -47,7 +47,7 @@
     border-radius: 100%;
     transition: 0.36s cubic-bezier(0.4, 0, 1, 1);
   }
-  &:hover .psuedo-text {
+  &:hover {
     color: white;
   }
 }
@@ -64,12 +64,19 @@
     position: absolute;
   }
 
+
+  &--white{
+    &:before{
+      background: #ffffff;
+    }
+  }
+
   &:hover:before {
     transform: translate(-45%, -34%) translateZ(0);
   }
 
 
-  &-white{
+  &--white{
     &:before{
       background: #ffffff;
     }
@@ -88,8 +95,5 @@
   transition: 0.25s ease-in;
   transition-delay: 0.1s;
   border: 1px solid transparent;
-
-  
-  
 }
 

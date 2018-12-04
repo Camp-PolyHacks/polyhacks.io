@@ -1,55 +1,12 @@
 <div class="polyhacks-grid__col--md--6 faq polyhacks-grid" style="padding: 128px 0px;" id="faq">
 <h2>FAQ</h2>
-<div >
-  <h4>When and where is Camp PolyHacks?</h4>
-  <p>This year’s hackathon will kick off on Friday, January 18 at 5 PM. We’ll be hacking until the awards ceremonies the next day, Saturday, January 19, at 9 PM. The entire event is hosted at the SLO HotHouse, the downtown entrepreneurship space right above Ross.</p>
-</div>
 
-<div >
-    <h4>Who can attend Camp PolyHacks?</h4>
-    <p>All current Cal Poly, San Luis Obispo students are welcome!</p>
-</div>
 
-<!--
+{% for item in site.data.faq %}
 <div>
-    <h4>How do I sign up for Camp PolyHacks?</h4>
-    <p>Applications are open now through November 25! You can sign up through the Apply button on our home page or by following <a href="https://camppolyhacks19.typeform.com/to/TMPKlh">this link.</a></p>
+    <h4>{{item.question}}</h4>
+    <p>{{item.answer}}</p>
 </div>
--->
-
-<div>
-    <h4>How much does it cost?</h4>
-    <p>Camp PolyHacks is 100% free!</p>
-</div>
-
-<div >
-    <h4>What should I expect on the day of the event?</h4>
-    <p>At Camp PolyHacks, you’ll collaborate with a team to build something to help solve a problem our community faces. Expect a fast-paced environment with lots of learning, support, and teamwork. We will also provide unlimited free food and drinks, helpful company mentors and resources, and exciting activities to take a break from hacking. A more detailed schedule will be released in the weeks before the event, so check back soon!</p>
-</div>
-
-<div >
-    <h4>Do I need to be an experienced coder?</h4>
-    <p>Not at all! We welcome campers of all backgrounds and experience levels. This is your time to learn something new.</p>
-</div>
-
-<div>
-    <h4>What do I need to bring?</h4>
-    <p>Bring your laptop, chargers, creative tools, and whatever else you might need to whip up a cool new product. You will also need sleeping bags and travel materials if you’re staying overnight. Most importantly, don’t forget your A-game!</p>
-</div>
-
-<div>
-    <h4>Will I be able to sleep during the hackathon?</h4>
-    <p>Yes, there will be places available for teams to rest at the HotHouse overnight.</p>
-</div>
-
-<div>
-    <h4>How do I form teams, and how big can each team be?</h4>
-    <p>Teams can be up to 10 people. If you don’t have a team yet, that’s okay! There will be time to ﬁnd one on Friday before the hacking begins.</p>
-</div>
-
-<div>
-        <h4>Help! I have another question that wasn’t answered here.</h4>
-        <p>Check out our Facebook page <a href="https://www.facebook.com/camppolyhacks/">here</a> to see if we’ve posted the answer already. If you still can’t find what you’re looking for, feel free to contact us at <a href="mailto:team.camppolyhacks@gmail.com">team.camppolyhacks@gmail.com!</a></p>
-</div>
+{% endfor %}
 
 </div>
