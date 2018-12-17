@@ -15,7 +15,13 @@ html {
   box-sizing: inherit;
 } 
 
+
+html{
+  scroll-behavior: smooth;
+}
+
 body{
   background: linear-gradient(#408B7F,#4E46BF);
   color: #ffffff;
+
 }
