@@ -1,31 +1,71 @@
-- director: 
-  title: 
-  image: 
-  quote:
-  link: 
+- name: Rutu Samai
+  position: Lead Director
+  quote: Avid hacker, snacker, traveler, and dreamer
+  link: https://www.linkedin.com/in/rutusamai/
 
-- director: Diane Hahn
-  title: Design + Tech Director
-  image: diane.jpg
-  quote: "Hello World"
-  link: "linked in"
+- name: Diane Hahn
+  position: Design + Tech Director
+  quote: Treat everyone like Drake treats Toronto.
+  link: https://linkedin.com/in/dhahn98/
 
-- director: 
-  title: 
-  image: 
-  quote:
-  link: 
+- name: Celestine Co
+  position: Sponsorship Director
+  quote: Road work ahead? I sure hope it does.
+  link: https://www.linkedin.com/in/celestine-co-49493211b/
 
-- director: 
-  title: 
-  image: 
-  quote:
-  link:
+- name: Brooke Panian
+  position: Marketing Director
+  quote: Life revolves around the 4 C’s - Creativity, Collaboration, Coffee and Clothes
+  link: https://www.linkedin.com/in/brooke-panian-55829293
 
-- director: 
-  title: 
-  image: 
-  quote:
-  link: 
-  
+- name: Jim Heald
+  position: Event + Experience Director
+  quote: Follow your heart, especially if your heart takes you to amazing restaurants!
+  link: https://www.linkedin.com/in/jim-heald-2b6a46129/
+
+- name: Kristen Nagamatsu
+  position: Design + Tech
+  quote: Work hard, love harder
+  link: https://linkedin.com/in/kristen-nagamatsu
+
+- name: Javier Garcia
+  position: Design + Tech
+  quote: It be like that
+  link: https://www.linkedin.com/in/javigme/
+
+- name: Samantha Magtoto
+  position: Sponsorship
+  quote: Wants senpai to notice
+  link: https://linkedin.com/in/samanthamagtoto
+
+- name: Eric Zhou 
+  position: Sponsorship
+  quote: Be Juicy
+  link: https://www.linkedin.com/in/eric-zhou-833216133
+
+- name: Kellie Banzon
+  position: Marketing
+  quote: pink!
+  link: https://linkedin.com/in/kelliebanzon/
+
+- name: Rachel Hsieh
+  position: Event + Experience
+  quote: Boba time is all the time
+  link: https://linkedin.com/in/rjhsieh21
+
+- name: Arun Shriram
+  position: Event + Experience
+  quote: Creative, musical, code-loving, and marvel comics fanatic
+  link: https://www.linkedin.com/in/arun-shriram-60248532/
+
+- name: Aviral Kukreja
+  position: Event + Experience
+  quote: The only time you should sleep is when you die. Keep doing what you like so that one day you can rest easy. 
+  link: https://www.linkedin.com/in/aviralkukreja/
+
+- name: Sriteja Vemula
+  position: Event + Experience
+  quote: Work hard, play harder
+  link: https://www.linkedin.com/in/sriteja-v-9a4631123/
+
   
