@@ -1,0 +1,95 @@
+- time : 5:00 PM
+  event: Check In
+  days: one
+
+- time : 6:00 PM
+  event: Dinner
+  days: one
+  
+- time : 6:30 PM
+  event: Kickoff + Keynote
+  days: one
+
+- time : 7:30 PM
+  event: Team Formation
+  days: one
+
+- time : 7:45 PM
+  event: Hacking Begins
+  days: one
+
+- time : 8:00 PM
+  event: Ideation Hour
+  days: one
+
+- time : 12:00 AM
+  event: Midnight Meal
+  days: two
+
+- time : 1:00 AM
+  event: Hand Lettering Workshop
+  days: two
+
+- time : 1:30 AM
+  event: Intro to Django Workshop
+  days: two
+
+- time : 2:00 AM
+  event: Marshmallow Challenge
+  days: two
+
+- time : 3:30 AM
+  event: Smash Tournament
+  days: two
+
+- time : 4:00 AM
+  event: Karaoke
+  days: two
+
+- time : 7:00 AM
+  event: Breakfast
+  days: two
+
+- time : 9:00 AM
+  event: Mentor Hour
+  days: two
+
+- time : 10:00 AM
+  event: Customer Interviews/Development Workshop and Challenge
+  days: two
+
+- time : 11:00 AM
+  event: App Reenvisioning Challenge by CPUX
+  days: two
+
+- time : 12:00 PM
+  event: Lunch
+  days: two
+
+- time : 2:00 PM
+  event: Kahoot
+  days: two
+
+- time : 3:00 PM
+  event: Hot Cocoa Bar
+  days: two
+
+- time : 4:00 PM
+  event: Mentor Hour
+  days: two
+
+- time : 6:00 PM
+  event: Dinner
+  days: two
+
+- time : 6:30 PM
+  event: Tech Check
+  days: two
+
+- time : 7:00 PM
+  event: Pitches
+  days: two
+
+- time : 9:00 PM
+  event: Closing Ceremony and Prizes
+  days: two

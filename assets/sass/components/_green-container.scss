@@ -1,0 +1,26 @@
+.green-container{
+  @media only screen and (min-width: 1024px) {
+    grid-column: 4 / span 6;
+  }
+
+  background-color: #ffffff;
+  border: 3px solid #00BF8C;
+
+  &__header{
+    background: #00BF8C;
+    margin:0px;
+    padding: 0.5em 0.5em;
+    text-align: center;
+    font-size: 200%;
+    letter-spacing: 0.03em;
+  }
+
+  &___body{
+    padding: 1em;
+  }
+
+
+  p,a{
+    color: black;
+  }
+}

@@ -1,0 +1,15 @@
+<div class="polyhacks-grid__col--md--6 polyhacks-grid green-container">
+  <h2 class="green-container__header">
+    Keynote Speaker
+  </h2>
+  
+  {% for speaker in site.data.speaker %}
+  <div class="green-container__body" style="padding:1em;">
+    <img src="./assets/images/speaker/nancy.jpg">
+    <p>{{ speaker.name }}</p>
+    <p>{{ speaker.description }}</p>
+  </div>
+  
+  {% endfor %}
+  
+</div>

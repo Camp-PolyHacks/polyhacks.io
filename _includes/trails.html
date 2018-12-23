@@ -1,0 +1,11 @@
+
+<div class="polyhacks-grid" style="padding: 256px 0px">
+  <h2>Trails</h2>
+  {% for trail in site.data.trails  %}
+  <div class="polyhacks-grid__col--md--4 polyhacks-grid polyhacks-padding--right">
+    <img src="./assets/images/trails/{{trail.topic}}.png" style="height: 64px; margin-top:64px; justify-self: center;">
+    <h3 style="text-align: center; font-style: italic; font-family: 'Open Sans', sans-serif; font-weight: 700;">{{ trail.topic }}</h3>
+    <p>{{ trail.description }}</p>
+  </div>
+  {% endfor %}
+</div>
