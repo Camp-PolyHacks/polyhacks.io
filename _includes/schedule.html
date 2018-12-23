@@ -1,4 +1,4 @@
-<div class="polyhacks-grid">
+<div class="polyhacks-grid" style="padding: 128px 0px">
 <div class="polyhacks-grid__col--md--6 polyhacks-grid green-container">
   <h2 class="green-container__header">
     Friday, January 15th 2019
@@ -7,7 +7,7 @@
   <div class="green-container__body" style="padding:1em;">   
     {% for day in site.data.schedule %}
       {% if day.days == "one" %}
-        <p>{{ day.time }}<br>{{ day.event }}</p>
+        <p><span style="font-weight: bold;">{{ day.time }}</span><br><span>{{ day.event }}</span></p>
       {% endif %}
     {% endfor %}
   </div>
@@ -21,7 +21,7 @@
     <div class="green-container__body" style="padding:1em;">
     {% for day in site.data.schedule %}
         {% if day.days == "two" %}
-          <p>{{ day.time }}<br>{{ day.event }}</p>
+          <p><span style="font-weight: bold;">{{ day.time }}</span><br><span>{{ day.event }}</span></p>
         {% endif %}
     {% endfor %}
     </div>
