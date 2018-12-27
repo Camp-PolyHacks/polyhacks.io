@@ -1,7 +1,9 @@
 {% for director in site.data.directors %}
 <div class="person">
   <a href={{ director.link }}>
-    <img src= "./assets/images/directors/{{ director.name | truncatewords: 1, ""}}.jpg" class="person__image">
+      {% assign image = director.name | truncatewords: 1, ""%}
+
+    <img src= "./assets/images/directors/{{image | downcase}}.jpg" class="person__image">
   </a>
 <p class="person__content" ><span class="small"><b>{{ director.name }}</b> <br> <i>{{ director.position }}</i></span></p>
 </div>
