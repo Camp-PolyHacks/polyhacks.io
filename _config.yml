@@ -13,7 +13,7 @@ url: "polyhacks.io" # the base hostname & protocol for your site
 
 # Markdown settings
 markdown: kramdown
-encoding: "utf-8"
+encoding: utf-8
 
 
 # Sass settings

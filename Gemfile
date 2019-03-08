@@ -1,5 +1,3 @@
 source 'https://rubygems.org'
 
-gem 'jekyll'
-gem 'jekyll-feed'
-gem 'jekyll-sitemap'
+gem 'jekyll', '~> 3.8', '>= 3.8.5'
