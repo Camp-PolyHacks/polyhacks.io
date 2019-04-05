@@ -1,0 +1,150 @@
+html, body {
+  line-height: 1.5;
+  background: #408B7F;
+  font-family: 'Open Sans', sans-serif;
+  background: linear-gradient(#408B7F, #4E46BF);
+}
+
+.container {
+  color: white;
+  width: 55vw;
+}
+
+.page {
+  display: flex;
+}
+
+.col {
+  flex-direction: column;
+  display: flex;
+  flex: 1;
+}
+
+.card {
+  background: transparent;
+  display: flex;
+  flex: 1;
+}
+
+.carousel {
+  height: 37vw;
+}
+
+.brand-logo {
+  padding: 0 10px 0 10px !important;
+}
+
+.responsive-img {
+  max-height: 300px;
+}
+
+.btn {
+  border-radius: 25px;
+}
+
+.separator {
+  height: 1px;
+  overflow: hidden;
+  margin: 3% 0 3% 0;
+}
+
+.divider {
+  margin: 1% 0 0 0;
+}
+
+.description {
+  margin-bottom: 5%;
+}
+
+.card-page {
+  display: flex;
+  align-items: stretch;
+}
+
+@media (max-width: 992px) {
+  .card-page {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  nav .brand-logo {
+    transform: unset;
+    -webkit-transform: unset;
+    left: unset;
+  }
+
+  .container {
+    width: 85vw;
+  }
+
+  .carousel {
+    height: 57vw;
+  }
+}
+
+.card-page > .col {
+  display: flex;
+  flex: 1;
+}
+
+.card-title {
+  font-weight: bold !important;
+}
+
+.apply {
+  margin: 5% 0 5% 0;
+  background: #00BF8C;
+}
+
+.apply:hover{
+  background: #00d68f;
+}
+
+p,li{
+  margin-bottom: 1.5em;
+}
+
+ol{
+  list-style-position: outside;
+  padding-left: 0;
+}
+
+b{
+  font-size: 120%;
+  line-height: 1.2
+}
+
+ul, ul > li {
+  margin-left: 10px;
+  list-style-type: disc !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Bitter, serif;
+}
+
+#intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.logo {
+  padding: 10px;
+}
+
+#maple {
+  height: 100px;
+}
+
+#apply {
+  margin: 0 5% 1% 0;
+}
+
+.flex-reverse {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap-reverse;
+}
